@@ -40,8 +40,7 @@ public class Word {
      * @param imageResourceId is the drawable resource ID for the image associated with the word
      * @param audioResourceId is the resource ID for the audio file associated with this word
      */
-    public Word(String defaultTranslation, String miwokTranslation, int imageResourceId,
-                int audioResourceId) {
+    public Word(String defaultTranslation, String miwokTranslation, int imageResourceId, int audioResourceId) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         mImageResourceId = imageResourceId;
